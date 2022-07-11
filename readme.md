@@ -1,6 +1,6 @@
 [GitHub] (https://github.com/Pyr1te/MDPS001 "Github MDPS001 Home")
 
-Bureau Veritas Particle Count Parsing Script & File Handler
+Particle Count Parsing Script & File Handler
 ----------------------------
 Code written by Matthew Dunn
 
