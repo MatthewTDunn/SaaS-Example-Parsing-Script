@@ -14,7 +14,7 @@ Due to inaccesibility and IT restrictions around the clients backend data storag
 
 As described by the client and under typical laboratory workload conditions, this instrument could be responsible for analysing upwards of a 100 samples a day - resulting in 100 individual .MES files.
 
-Prior to the implementation of this parsing script, the client would open each individual .MES file and paste the entirety into a formulated excel workbook. Through basic excel functionality, the result line was examined and formatted appropriately so the client could copy and paste it to a separate sheet and collate a list of results for the day. Once the list was ready, it was manually copied across to their LIMS for scruitny and reporting.
+Prior to the implementation of this parsing script, the client would open each individual .MES file and paste the entirety into a formulated excel workbook. Through basic excel functionality, the result line was examined and formatted appropriately so the client could copy and paste it to a separate sheet and collate a list of results for the day. Once the list was ready, it was manually copied across to their LIMS for scrutiny and reporting.
 
 This process is cumbersome, particularly prone to human error and required automation.
 
