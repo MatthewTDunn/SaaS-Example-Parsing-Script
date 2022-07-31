@@ -1,27 +1,23 @@
-[GitHub] (https://github.com/Pyr1te/MDPS001 "Github MDPS001 Home")
+# Data Handling/Parsing Script SaaS Example
 
-Particle Count Parsing Script & File Handler
-----------------------------
-Code written by Matthew Dunn
+An example of a SaaS python script I wrote to automate the handling of data from an analytical process in a local laboratory.
 
-REQUIREMENTS#
-This script must be run in a master folder where the two following subfolders exist:
-1) Particle Count Results [this is for actual data]
-2) Archived Data [all parsed data will be moved to this location]
-3) The .mes files to be parsed are semi-colon delimited. If this changes, the script will no longer work
+![Example GIF](https://github.com/Pyr1te/SaaS-Example-Parsing-Script/blob/main/Example.gif?raw=true)
 
-Appendix:
-- A - Library Importing
-- B - Determination of parse file count
-- C - Set the script run date for logging purposes
-- D - Iterate through .mes data files and collect appropriate information, split into appropriate lists
-- E - Create parse points & particle count data variables
-- F - Splitting result data into appropriate particle sizes & iso code python lists
-- G - Move parsed files to archive directory so repeat parsing doesn't happen using SHUTIL
-- H - list from section F split via additional concatenated ','
-- I - Write parsed data to file "ParticleCountData" located in master directory
+# How it works:
 
-- Z - Log script run data after execution
+In this particular example, the clients analytical instrument would process a sample and store an individual .CSV result file in a specified directory. Through the software provided by the instrument manufacturer, the output file of the result .CSV was set to "/Particle Count Results" of the .py master file. Once the analyst had finalised their instrumental work for the day, the script would be run and a single .CSV file produced for easy importing into their Laboratory Information Management System (LIMS).
 
-Error List:
-- ERR1 - No .mes files present in data directory
+Due to inaccesibility and IT restrictions around the clients backend data storage, automatic update directly to their LIMS was prohibited.
+
+# Reason for Implementation:
+
+As described by the client and under typical laboratory workload conditions, this instrument could be responsible for analysing upwards of a 100 samples a day - resulting in 100 individual .CSV files.
+
+Prior to the implementation of this parsing script, the client would open each individual .CSV file and paste the entirety into a formulated excel workbook. Through basic excel functionality, the result line was examined and formatted appropriately so the client could copy and paste it to a separate sheet and collate a list of results for the day. Once the list was ready, it was manually copied across to their LIMS for scruitny and reporting.
+
+This process is cumbersome, particularly prone to human error and required automation.
+
+# Cost Savings:
+
+With in house IT software development capability lacking and no support from the instrument manufacturer, I was able to provide the client with a lean data handling solution to this previously manual process. The automation of the manual process has alleviated (at minimum), half an hour of a laboratory technicians daily workload and <strong>saved the client upwards of $7,000 annually. </strong>
