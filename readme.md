@@ -20,6 +20,6 @@ This process is cumbersome, particularly prone to human error and required autom
 
 # Cost Savings:
 
-With in house IT software development capability lacking and no support from the instrument manufacturer, I was able to provide the client with a lean data handling solution to this previously manual process.
+With in-house IT software development capability lacking and no support from the instrument manufacturer, I was able to provide the client with a lean data handling solution to this previously manual process.
 
 The automation of the manual process has alleviated (at minimum), half an hour of a laboratory technicians daily workload and <strong>saved the client upwards of $3,900 annually in addition to removing a data handling process prone to human error. </strong>
