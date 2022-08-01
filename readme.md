@@ -6,7 +6,7 @@ An example of a SaaS python script I wrote to automate the handling of data from
 
 # How it works:
 
-In this particular example, the clients analytical instrument would process a sample and store an individual .MES result file in a specified directory. Through the software provided by the instrument manufacturer, the result output file was set to "/Particle Count Results" of the .py master file. Once the analyst had finalised their instrumental work for the day, the script would be run and a single .CSV file produced for easy importing into their Laboratory Information Management System (LIMS).
+In this particular example, the clients analytical instrument would process a sample and store an individual .MES result file in a specified directory. Through the software provided by the instrument manufacturer, the result output file was set to "/Particle Count Results" of the [.py master file](https://github.com/Pyr1te/SaaS-Example-Parsing-Script/blob/main/MDPS001_ParticleCountScript.py). Once the analyst had finalised their instrumental work for the day, the script would be executed and a single .CSV file produced for easy importing into their Laboratory Information Management System (LIMS).
 
 Due to inaccesibility and IT restrictions around the clients backend data storage, automatic update directly to their LIMS was prohibited.
 
