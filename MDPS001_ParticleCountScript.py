@@ -1,5 +1,3 @@
-    #Bureau Veritas Particle Count Parsing Script & File Handler
-    #----------------------------
     #Code written by Matthew Dunn
 
     #REQUIREMENTS#
